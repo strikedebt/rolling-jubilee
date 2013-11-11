@@ -1,0 +1,222 @@
+/*****************************
+
+updates to rollingjubilee.org
+by Zak Greene
+3/13/2013
+
+******************************
+import fonts
+******************************/
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+/******************************/
+
+#transparency-pg .intro {
+    background: #fff;
+    font-size: 1.05em;
+}
+
+#transparency-pg h2 {
+    margin: 0.5em 0;
+    font-size: 4.5em;
+}
+
+#transparency-pg p {
+    margin-bottom: 0;
+    text-indent: 2.5em;
+}
+
+#transparency-pg p:first-child, #transparency-pg p.noindent {
+    text-indent: 0;
+}
+
+#transparency-pg ol {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#transparency-pg li {
+    margin-bottom: 0.5em;
+}
+
+#transparency-pg dt, #transparency-pg dd {
+    float: left;
+    line-height: normal;
+    font-size: 1.15em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-family: MenschBoldInline;
+}
+
+#transparency-pg dt {
+    clear: left;
+}
+
+#transparency-pg dd {
+    font-family: MenschRegular;
+}
+
+#transparency-pg hr {
+    border-top: 1px solid #ccc;
+    margin: 1.5em 0;
+    clear: both;
+}
+
+#transparency-pg .span7 {
+    text-align: center;
+}
+
+#transparency-pg .span9 h2 {
+    font-size: 3.5em;
+    line-height: normal;
+}
+
+#transparency-pg .signature {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    font-style: italic;
+}
+
+
+
+/*****************************
+debt buys
+******************************/
+
+#transparency-pg #debtbuys {
+    text-align: center;
+}
+
+#transparency-pg #debtbuys .buy {
+    background: url(../img/stack_sm.png) no-repeat;
+    color: #4D4D4F;
+    min-height: 386px;
+    padding: 3em 2.5% 2em 6.5%;
+    text-align: left;
+}
+
+#transparency-pg #debtbuys .buy:nth-child(2n) {
+    background-image: url(../img/stack2_sm.png);
+}
+
+#transparency-pg .buy h3 {
+    color: #be1e2d;
+    font-size: 2em;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+}
+
+#transparency-pg .buy h4 {
+    margin-left: -0.66em;
+    font-size: 4.25em;
+    margin-bottom: 0.25em;
+    font-family: MenschRegular;
+    letter-spacing: 0.025em;
+}
+
+#transparency-pg .buy h5 {
+    font-size: 1.5em;
+    font-family: MenschRegular;
+    padding-top: 0.5em;
+}
+
+#transparency-pg .buy h3 span, #transparency-pg span.dot {
+    padding: 0 0.1em;
+}
+
+#transparency-pg .buy dt {
+    padding-top: 0.15em;
+}
+
+#transparency-pg .buy dd {
+    font-family: Georgia, serif;
+}
+
+#transparency-pg a.button {
+    border: 0.2em solid #be1e2d;
+    -moz-border-radius:     0.5em;
+    -webkit-border-radius:  0.5em;
+    border-radius:          0.5em;
+    padding: 0.45em 0.66em;
+    font-family: MenschRegular;
+    font-size: 1.33em;
+    line-height: 1.2em;
+    display: inline-block;
+    margin: 0.33em 0;
+}
+
+#transparency-pg a.button:hover {
+    border-color: #000;
+    text-decoration: none;
+    color: #000;
+}
+
+#transparency-pg .buy a.button span {
+}   
+
+#transparency-pg #operations ul {
+    margin: 0;
+}
+
+#transparency-pg #operations {
+    margin-top: 1em;
+}
+
+#transparency-pg #operations li {
+    list-style: none;
+}
+
+#transparency-pg #operations li .button {
+    border-color: #ccc;
+    color: #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#transparency-pg #operations .button:hover {
+    border-color: #be1e2d; /*red*/
+    color: #fff;
+}
+
+
+
+/*****************************
+media queries
+******************************/
+
+@media (min-width: 960px) {
+
+    #transparency-pg #debtbuys .buy {
+        float: left;
+        width: 40.5%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #transparency-pg .intro {
+        font-size: 1.15em;
+        line-height: 1.5em;
+    }
+
+    #transparency-pg h2 {
+        font-size: 6em;
+    }
+
+    #transparency-pg #debtbuys .buy {
+        background: url(../img/stack.png) no-repeat;
+        min-height: 500px;
+    }
+
+    #transparency-pg #debtbuys .buy:nth-child(2n) {
+        background-image: url(../img/stack2.png);
+    }
+}
