@@ -20,7 +20,6 @@ import fonts
 
 #transparency-pg .intro {
     background: #fff;
-    font-size: 1.05em;
 }
 
 #transparency-pg h2 {
@@ -49,7 +48,7 @@ import fonts
 #transparency-pg dt, #transparency-pg dd {
     float: left;
     line-height: normal;
-    font-size: 1.15em;
+    font-size: 1.1em;
     margin: 0;
     margin-bottom: 0.5em;
     font-family: MenschBoldInline;
@@ -74,7 +73,7 @@ import fonts
 }
 
 #transparency-pg .span9 h2 {
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: normal;
 }
 
@@ -100,6 +99,7 @@ debt buys
     min-height: 386px;
     padding: 3em 2.5% 2em 6.5%;
     text-align: left;
+    font-size: 0.9em;
 }
 
 #transparency-pg #debtbuys .buy:nth-child(2n) {
@@ -147,7 +147,7 @@ debt buys
     border-radius:          0.5em;
     padding: 0.45em 0.66em;
     font-family: MenschRegular;
-    font-size: 1.33em;
+    font-size: 1.15em;
     line-height: 1.2em;
     display: inline-block;
     margin: 0.33em 0;
@@ -203,17 +203,18 @@ media queries
 
 @media (min-width: 1200px) {
     #transparency-pg .intro {
-        font-size: 1.15em;
+        font-size: 1.05em;
         line-height: 1.5em;
     }
 
     #transparency-pg h2 {
-        font-size: 6em;
+        font-size: 5.5em;
     }
 
     #transparency-pg #debtbuys .buy {
         background: url(../img/stack.png) no-repeat;
         min-height: 500px;
+        font-size: 1em;
     }
 
     #transparency-pg #debtbuys .buy:nth-child(2n) {

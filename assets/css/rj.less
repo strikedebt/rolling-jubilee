@@ -40,6 +40,11 @@
   box-shadow: inset @horizontal @vertical @blur rgba(0, 0, 0, @alpha);
 }
 
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
 /* big stuff */
 
 a {
@@ -50,7 +55,7 @@ a {
 h2 {
   font-family: MenschBoldInline;
   font-weight: normal;
-  font-size: 6em;
+  font-size: 5.5em;
   line-height: 80px;
   margin: 0;
   position: relative;
@@ -89,8 +94,7 @@ dt {
 }
 
 dd {
-  margin: 0 0 30px 0;
-  line-height: 30px;
+  margin: 0 0 1.5em 0;
 }
 
 /* nav */
@@ -131,8 +135,12 @@ nav {
 }
 
 #contribute a {
-  color: @red;
-  font-family: MenschBold;
+  color: @light-red;
+}
+
+#contribute p {
+  line-height: 1.6em;
+  margin: 1em 0;
 }
 
 /* backgrounds */
@@ -387,9 +395,11 @@ nav {
   margin-top: 30px;
   margin-bottom: 50px;
   h3.center {
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #9c9c9c;
   }
+
   #wepay {
     border: 1px solid #999;
     padding: 20px 0;

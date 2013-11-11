@@ -1204,10 +1204,6 @@ ol.unstyled {
 dl {
   margin-bottom: 20px;
 }
-dt,
-dd {
-  line-height: 20px;
-}
 dt {
   font-weight: bold;
 }
