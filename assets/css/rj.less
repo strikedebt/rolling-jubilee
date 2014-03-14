@@ -62,11 +62,17 @@ h2 {
   z-index: 9
 }
 
-h3, dt {
+h3, dt, .drop {
   font-family: MenschRegular;
   line-height: 33px;
   font-weight: normal;
   font-size: 22px;
+}
+
+.drop {
+  float: left;
+  font-size: 4.75em;
+  line-height: 0.85em;
 }
 
 h3#sd {
@@ -165,6 +171,10 @@ nav {
 
 #contribute a {
   color: @light-red;
+}
+
+#transparency-pg #contribute a {
+  color: @red;
 }
 
 #contribute p {
